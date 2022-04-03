@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: #ff7a7a;
+    background-image: url(../images/bg-intro-desktop.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    color: #fff;
+}
+main h1 {
+    max-width: 420px;
+    margin-bottom: 5%;
+    font-size: 3em;
+}
+main p {
+    max-width: 500px;
+}
+.right-content{
+    margin-left: 70px;
+}
+.right-content .free-trial {
+    max-width: 540px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #6055a5;
+    border-radius: .5em;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 0px #00000020;
+}
+ 
+.right-content .free-trial p span {
+    font-weight: 700;
+}
+.right-content .inputs-section {
+    padding: 40px;
+    max-width: 540px;
+   
+    background-color: #fff;
+    border-radius: .5em;
+    box-shadow: 0px 8px 0px #00000027;
+    
+}
+.right-content .inputs-section form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.right-content .inputs-section form div {
+    position: relative;
+}
+.right-content .inputs-section form div img{
+    
+    position: absolute;
+    right: 30px;
+    top: 14px;
+}
+.right-content .inputs-section form div p {
+
+    position: absolute;
+    font-size: 12px;
+    color: #ff7a7a;
+    bottom: 2px;
+    right: 0;
+}
+
+.right-content .inputs-section form input {
+    height: 55px;
+    width: 460px;
+    margin-bottom: 20px;
+    border: solid 1px #3e3c49;
+    border-radius: .5em;
+    outline: none;
+    padding-left: 30px;
+    font-weight: 700;
+    color: #3e3c49;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+.hidden {
+    display: none!important;
+}
+.right-content .inputs-section form #submit {
+    background-color: #38cc8c;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    box-shadow: inset 0px -4px 1px #0000002e;
+    cursor: pointer;
+    transition: .2s;
+}
+.right-content .inputs-section form #submit:hover {
+    background-color: #77e2b4;
+}
+
+.right-content .inputs-section p {
+    color: #b9b6d3;
+    font-size: 13px;
+    text-align: center;
+}
+.right-content .inputs-section p a {
+    color: #ff7a7a ;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+

@@ -1,0 +1,43 @@
+@media (max-width: 950px) {
+    body {
+        background-image: url(../images/bg-intro-mobile.png);
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+    main h1 {
+        margin: auto;
+        margin-top: 80px;
+        width: auto;
+        font-size: 2em;
+        text-align: center;
+    }
+    main p {
+        margin-top: 30px;
+        width: auto;
+        text-align: center;
+    }
+    .right-content {
+        margin: auto;
+    }
+    .right-content .free-trial {
+        margin-top: 65px;
+        max-width: 330px;
+        height: 90px;
+        padding: 25px;
+    }
+    .right-content .free-trial p {
+        text-align: center;
+        max-width: 200px;
+    }
+    .right-content .inputs-section {
+        padding: 25px;
+        max-width: 330px;
+    }
+    .right-content .inputs-section form input {
+        width: 100%;
+    }
+    .right-content .inputs-section p {
+        text-align: center;
+    }
+}
